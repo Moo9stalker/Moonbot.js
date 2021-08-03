@@ -12,7 +12,8 @@ let m = client.guilds.cache.get('795569524170031124');
        
        let lockcid = await db.get(`vlock_${newMember.guild.id}`)
 
-      
+       let allowed;
+    
 
        let chanl = await client.channels.fetch(lockcid)
        ;
